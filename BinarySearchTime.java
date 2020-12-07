@@ -52,7 +52,9 @@ public class BinarySearchTime {
     }
 
     public static void main(String[] args) {
-        long start = System.currentTimeMillis(); 
+
+        long start = System.currentTimeMillis();
+
         // read the integers from a file
         In in = new In(args[0]);
         int[] allowlist = in.readAllInts();
@@ -67,7 +69,9 @@ public class BinarySearchTime {
                 StdOut.println(key);
         }
           long end = System.currentTimeMillis(); 
+
         System.out.println("Total time taken: " + 
                                     (end - start) + "ms"); 
     }
+
 }
